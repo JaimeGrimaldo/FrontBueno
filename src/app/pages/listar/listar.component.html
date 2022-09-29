@@ -1,0 +1,13 @@
+<h1>Lista de alumnos</h1>
+<div class="row">
+    <div class="col-md-4" *ngFor="let alumno of alumnos">
+        <div class="card text-center">
+            <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+                {{alumno.id}}
+                {{alumno.nombre}}
+                {{alumno.matricula}}
+            </div>
+            
+        </div>
+    </div>
+</div>

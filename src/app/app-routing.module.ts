@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [];
+import {ListarComponent} from './pages/listar/listar.component';
+const routes: Routes = [
+  {path: '',component:ListarComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
